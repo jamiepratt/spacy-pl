@@ -2,7 +2,8 @@
 import spacy_streamlit
 import en_core_web_sm, en_core_web_md, en_core_web_lg, en_core_web_trf
 
-models = ["en_core_web_sm", "en_core_web_md", "en_core_web_lg", "en_core_web_trf"]
-default_text = "Sundar Pichai is the CEO of Google."
+models = ["pl_core_news_sm", "pl_core_news_md", "pl_core_news_lg",
+            "en_core_web_sm", "en_core_web_md", "en_core_web_lg", "en_core_web_trf"]
+default_text = "Marta poszła spać. Była jedenasta wieczorem. Ona wyłączyła światło i położyła się do łóżka. W pokoju było ciemno i cicho. Marta próbowała usnąć, ale nie mogła."
 
 spacy_streamlit.visualize(models, default_text)
